@@ -1,0 +1,43 @@
+/* java father-james Gosling *java prevoiusly called as oak
+* java follows OOP methodology ,*java main concern is security of  the data
+* mainly in java we deal with classes and objects
+*java exicution speed faster than python*/
+
+//Basic Template of java
+class Day1{
+public static void main(String args[]){
+System.out.print("this is my first java program");
+}
+}
+
+
+// base fare program
+
+class Fare{
+ int fare;
+void disp()
+{
+ System.out.print("fare"+fare);
+}
+}
+
+class Driver{
+public static void main(String args[]){
+ Fare obj=new Fare();
+ Scanner sc=new Scanner(System.in);
+ System.out.print("enter distance in kms");
+ int d=sc.nextInt();
+ int minfare=10;
+ int journeyOver=0;
+ System.out.print("press 1 if u sucessfully complete the journy else eneter any number");
+journeyover=sc.nextInt();
+if(journeyover==1)
+{
+obj.fare=minfare+d*10;
+obj.disp();
+}
+else
+obj.fare=minfare;
+obj.show();
+}
+
